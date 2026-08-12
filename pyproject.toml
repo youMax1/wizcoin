@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Wizcoin"
+authors = [
+    {name = "YouMax1", email = "youliang527@126.com"},
+]
+description = "A Python module to represent the galleon, sickle, and knut coins of wizard currency."
+readme = "README.md"
+# keywords = ["TODO_KEYWORD_1", "TODO_KEYWORD_2"]
+license = {file = "LICENSE"}
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+requires-python = ">=3.7"
+dynamic = ["version"]
+
+[project.urls]
+"Homepage" = "https://github.com/YouMax1/wizcoin"
+"Bug Tracker" = "https://github.com/YouMax1/wizcoin/issues"
+
+[tool.setuptools.dynamic]
+version = {attr = "wizcoin.__version__"}
