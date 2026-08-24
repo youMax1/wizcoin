@@ -7,11 +7,13 @@ A Python module to represent the galleon, sickle, and knut coins of wizard curre
 
 To install with pip on macOS or Linux, run:
 
-    python3 -m pip install wizcoin
+    python3 -m pip install git+https://github.com/YouMax1/wizcoin.git
 
 To install with pip on Windows, run:
 
-    py -m pip install wizcoin
+    py -m pip install git+https://github.com/YouMax1/wizcoin.git
+
+(This module is not yet completed.Please do not download it.)
 
 Quickstart Guide
 ----------------
